@@ -5,6 +5,6 @@ export default function handler(req, res) {
   if (roll === 103) {
     res.send(`${user} rolled a 103! 🎉 You win a skin!`);
   } else {
-    res.send(`${user} rolled a ${roll}. Better luck next time!`);
+    res.send(`${user} rolled a ${roll}. Better luck next time! The lucky number is 103`);
   }
 }
